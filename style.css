@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* background-image: url("images/bak001.jpg"); */
+}
+.navbar-comp{
+    color: whitesmoke !important;
+}
+.navbar-comp:hover{
+    background-color: white;
+    color: black !important;
+    
+}
+img{
+    height: 400px;
+    background-size: cover;
+}
+.first-comp{
+    /* margin-left:100px !important; */
+    margin-top: 80px !important;
+    /* background-color: green; */
+}
+.comp-font{
+    margin-top: 100px!important;
+    color: #A43931;
+}
+.compo-font{
+    margin-top: 100px!important;
+    color: white;
+}
+.heading{
+    margin-top: 50px !important;
+    font-family: 'Allura', cursive;
+    color: darkred;
+    
+}
+.background{
+    background-color: brown;
+    color: white;
+
+}
+.mid-section{
+    margin-left: -20px;
+}
+
+
+.row-sections{
+    margin-bottom: 30px;
+}
+.sub-set{
+    color: brown;
+    cursor: pointer;
+
+}
+.set01{
+    background-color: #A43931;
+    color: white;
+}
+.sub-set:hover{
+    background-color: #A43931;
+    color: white;
+    
+}
+.foot-001{
+    margin-top: 50px;
+}
+i{
+    /* padding: 20px !important; */
+    margin-right: 40px !important;
+
+}
+.g-map{
+    flex-wrap: wrap;
+}
+
+.foot{
+    color: white !important;
+}
+.footer{
+    background-color: darkred;
+    margin-bottom: 0px;
+    height: 180px;
+}
+.list-on{
+    background-color: darkred !important;
+}
+.list-on :hover{
+    background-color: whitesmoke !important;
+}
+.bttn-on{
+    border-radius: 25px !important;
+}
+.bak-on{
+    /* background-image: url("images/bak001.jpg"); */
+    background-size: contain;
+    width: 100% !important;
+    /* background-repeat: no-repeat; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* buttons css */
+
+
+
+
+.btn-grad {background-image: linear-gradient(to right, #200122 0%, #6f0000  51%, #200122  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white !important;            
+   box-shadow: 0 0 50px rgb(196, 193, 193);
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+

@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script&family=Neonderthaw&display=swap"
+        rel="stylesheet">
+
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <!-- navigation bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Ninth navbar example" style="cursor: pointer;">
+        <div class="container-xl">
+            <a class="navbar-brand" data-aos="fade-up" href="#">Dhingra Plywoods</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL"
+                aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample07XL">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active navbar-comp" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-comp" href="#">About Us </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-comp">Contact Us </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-comp">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-comp">Our Services </a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown07XL" data-bs-toggle="dropdown"
+                            aria-expanded="false">Dropdown</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li> -->
+                </ul>
+                <form>
+                    <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <!-- crasoul-------------- -->
+
+
+
+
+    <div id="myCarousel" class="carousel slide slider-img" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active"
+                aria-current="true"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+                class=""></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="images/first faded.jpg" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <rect width="100%" height="100%" fill="#777"></rect></img>
+
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>DHINGRA PLYWOODS</h1>
+                        <p>Some representative placeholder content for the first slide of the carousel.</p>
+                        <p><a class="btn btn-lg btn- btn-grad" href="#">Visite ones</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active">
+                <img src="images/sec faded.jpg" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <rect width="100%" height="100%" fill="#777"></rect>
+                </svg>
+
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1 class="anim" data-aos="zoom-out">DHINGRA PLYWOODS</h1>
+                        <p class="anim" data-aos="zoom-out">Some representative placeholder content for the second slide
+                            of the carousel.</p>
+                        <p><a class="btn btn-lg btn- btn-grad" data-aos="zoom-out" href="#">welcome</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/third faded.jpg" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <rect width="100%" height="100%" fill="#777"></rect>
+                </svg>
+
+                <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1>DHINGRA PLYWOODS</h1>
+                        <p>Some representative placeholder content for the third slide of this carousel.</p>
+                        <p><a class="btn btn-lg btn- btn-grad" href="#">Browse gallery</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+
+    <!-- BKH section -->
+    <div class="heading">
+
+        <center>
+
+            <strong>
+                <h1 style="font-size: 50px;">Infrastructure facilities...!</h1>
+            </strong>
+        </center>
+    </div>
+
+<center>
+
+    <div class="container">
+        
+        <div class="row featurette first-comp">
+            <div class="col-md-7">
+                <h2 class="featurette-heading comp-font" data-aos="fade-up">The awesome living room... <span
+                        class="text-muted">It’ll blow
+                        your
+                        mind.</span></h2>
+                <p class="lead">Inside a house, one can utilize plywood in an assortment of decorations, including
+                    cabinetry, retires, tables and divider framing</p>
+            </div>
+            <div class="col-md-5">
+                <img src="images/living room.jpg" width="350" height="400" xmlns="http://www.w3.org/2000/svg" role="img"
+                    aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa"
+                    dy=".3em"></text></svg>
+
+            </div>
+        </div>
+
+    </div>
+    
+    
+    <div class="container">
+        
+        <!-- 2nd-------------------- -->
+        <div class="row featurette first-comp background">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading compo-font" data-aos="zoom-in">Bed room viwe like...<span
+                        class="text-muted">See for
+                        yourself.</span></h2>
+                <p class="lead" data-aos="zoom-in">Inside a house, one can utilize plywood in an assortment of
+                    decorations, including
+                    cabinetry, retires, tables and divider framing</p>
+            </div>
+            <div class="col-md-5 order-md-1 mid-section" data-aos="fade-up">
+                <img src="images/bedroom.jpg" width="350" height="200" xmlns="http://www.w3.org/2000/svg" role="img"
+                    aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa"
+                    dy=".3em"></text></svg>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 3rd -->
+    <div class="container">
+
+        <div class="row featurette first-comp">
+            <div class="col-md-7">
+                <h2 class="featurette-heading comp-font">The lovely kitchen is look like... <span
+                    class="text-muted">It’ll
+                    blow
+                    your
+                    mind.</span></h2>
+                    <p class="lead">Inside a house, one can utilize plywood in an assortment of decorations, including
+                        cabinetry, retires, tables and divider framing</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/kitchen.jpg" width="350" height="400" xmlns="http://www.w3.org/2000/svg" role="img"
+                    aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa"
+                    dy=".3em"></text></svg>
+
+            </div>
+        </div>
+
+    </div>
+
+</center>
+
+    <!-- product ranges--- -->
+    <div class="container bak-on">
+        
+        <div class="px-4 pt-5 my-5 text-center border-bottom">
+            <h1 class="display-4 fw-bold" style="color: brown;">Product Range</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">We are instrumental in bringing forward a range of products for every need and
+                    space.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                    <button type="button" class="btn btn-danger btn-lg px-4 me-sm-3 bttn-on">Buy Now</button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4 bttn-on">Click to more</button>
+                </div>
+            </div>
+            <div class="overflow-hidden" style="max-height: 60vh;">
+                <div class="container px-5">
+                    <img src="images/Product range.jpg" class="img-fluid border rounded-3 shadow-lg mb-4  mr-grade"
+                        alt="Example image" width="700" height="1500" loading="lazy">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- row sections -->
+    <div class="container row-sections">
+        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+            <div class="col sub-set">
+                <div class="p-3 set01">PLYWOOD</div>
+            </div>
+            <div class="col  sub-set">
+                <div class="p-3">BLOCK BOARDS</div>
+            </div>
+            <div class="col sub-set">
+                <div class="p-3">DOOR SHUTTERS</div>
+            </div>
+            <div class="col sub-set">
+                <div class="p-3">DECORATIVE VENEERS</div>
+            </div>
+            <div class="col sub-set">
+                <div class="p-3">INDUSTRIAL GRAD PLY</div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- sub sections -->
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-4">
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list"
+                        href="#list-home" role="tab" aria-controls="list-home">MR GRADE PLYWOODS</a>
+                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
+                        href="#list-profile" role="tab" aria-controls="list-profile">BWR GRAD PLYWOOD</a>
+                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
+                        href="#list-messages" role="tab" aria-controls="list-messages">MARINE PLYWOODS</a>
+                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
+                        href="#list-settings" role="tab" aria-controls="list-settings">FIRERETARDENT PLYWOODS</a>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                        aria-labelledby="list-home-list">
+                        <H2>MR GRADE PLYWOODS <BR></H2>
+                        <P>We are one of the prominent MR Grade Plywood Manufacturer and Supplier in Yamuna Nagar,
+                            Haryana. We fabricate MR Grade Plywood from finest wood by using the latest technologies. In
+                            addition, our fine MR Grade Plywood is appreciated by the clients for its unbeatable
+                            features and cost- efficiency. We offer MR Grade Plywood in different sizes and
+                            specifications.</P>
+                        <img src="images/mrgrad001.jpg" class="img-fluid" alt="..."
+                            style="height: 300px; width: 500px;">
+                    </div>
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                        <h2>BWR GRAD PLYWOODS</h2>
+                        <p>BWP Grade boards are manufactured from selected and seasoned timber battens. These are bonded
+                            with Phenol Formaldehyde resin for BWP grade. The block boards are resistant to
+                            twisting/warping and have superb screw holding & nail holding capability. This is mainly
+                            possible because of seasoned & durable timber which is used. These battens are
+                            systematically arranged and utmost care is taken to avoid any extra gap between the battens.
+                            Regular test are conducted to maintain the quality of block boards as per the Indian &
+                            International standards.</p>
+                        <img src="images/bwrgrad.jpg" class="img-fluid" alt="...">
+                    </div>
+                    <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                        <h2>MARIN PLYWOODS</h2>
+                        <p>Marine Plywood Manufactured at P.R. Industries is specially treated plywood that is designed
+                            to resist rotting in a high moisture environment. It is bonded with undiluted Phenol
+                            Formaldehyde Resin at extremely high temperature and pressure. Therefore, this plywood can
+                            take extreme changes in temperature, humidity and alternate wetting and drying which are all
+                            the prerequisites for plywood used in marine applications. Being powder proof it guarantees
+                            protection against borer & termites. This marine plywood is strong enough to withstand
+                            excess load, thrust and vibrations. It is dimensionally stable and stronger than the others.
+                        </p>
+
+                        <img src="images/marine-grade-plywood-1547843.jpg" class="img-fluid" alt="..."
+                            style="height: 300px; width: 300px;">
+                    </div>
+                    <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                        <h2>FIRE RETARDENT PLYWOOD</h2>
+                        <p>To meet diverse requirements of our valued clients, we are engaged in offering an excellent
+                            range of Fire Retardant Wood Panel Products that are absolutely non-hygroscopic. Our offered
+                            plywood is manufactured by our proficient professionals using high grade raw material and
+                            innovative technology in line with industry norms. Products are availed in variegated sizes
+                            and designs as per the needs of our prestigious clients. Our quality experts test these
+                            products on different parameters so as to maintain its quality.</p>
+                        <img src="images/fire.jpg" class="img-fluid" alt="...">
+                        ...
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <!-- footer-->
+    <div class="footer foot">
+        <footer class="py-3 my-4 child">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3" style="color: aliceblue;">
+                <li class="nav-item"><a href="#" class="nav-link px-2 " style="color: white;">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 " style="color: white;">Products</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 0" style="color: white;">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 " style="color: white;">Map</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 " style="color: white;">About Us</a></li>
+            </ul>
+            <p class="text-center" style="color: white;">© 2021 Company, Inc</p>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1000,
+        });
+    </script>
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
